@@ -1,0 +1,18 @@
+package com.tim.system.cloud.hello;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
+
+/**
+ * Created by eminxta on 2016/07/21.
+ */
+@EnableEurekaServer
+@SpringBootApplication
+public class EurekaServiceApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(EurekaServiceApplication.class,args);
+    }
+}
