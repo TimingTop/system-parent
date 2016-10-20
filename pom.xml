@@ -18,6 +18,7 @@
         <module>system-rpc</module>
         <module>system-test</module>
         <module>system-cloud</module>
+        <module>server-netty</module>
     </modules>
 
     <name>system-parent</name>
